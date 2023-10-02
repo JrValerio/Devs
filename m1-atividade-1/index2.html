@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML - Formulário</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Cadastro de Aluno</legend>
+
+        <label for="input_email">Email:</label>
+        <input
+          id="input_email"
+          type="email"
+          placeholder="mail@email.com"
+          name="email"
+        />
+
+        <label for="input_password">Senha</label>
+        <input id="input_password" type="password" name="senha" />
+
+        <label for="">Cor do perfil</label>
+        <input type="color" />
+
+        <section>
+          <p>Selecione uma turma:</p>
+
+          <div>
+            <label for="">T19</label>
+            <input type="radio" value="t19" name="turma" />
+          </div>
+
+          <div>
+            <label for="">T20</label>
+            <input type="radio" value="t20" name="turma" />
+          </div>
+
+          <div>
+            <label for="">T21</label>
+            <input type="radio" value="t21" name="turma" />
+          </div>
+        </section>
+
+        <label for="">Instrutor</label>
+        <select name="" id="">
+          <option disabled selected value="">Selecione uma opçao</option>
+          <option value="Alex">Alex</option>
+          <option value="lore">Lorena</option>
+          <option value="TK">Thiago</option>
+        </select>
+
+        <section>
+          <p>Descrição</p>
+          <textarea
+            placeholder="Escreva uma breve descrição..."
+            name=""
+            id=""
+            cols="30"
+            rows="5"
+            maxlength="200"
+          ></textarea>
+        </section>
+
+        <!--<input type="submit">-->
+        <button>Enviar informações</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+Como Definir a Largura e Altura de uma Imagem Usando HTML
+-O atributo "width" especifica a largura de uma imagem, em pixels.
+-O atributo "height " especifica a altura de uma imagem, em pixels.
+
+-No HTML 4.01, a altura pode ser definida em pixels ou em % do elemento que a contém.
+
+
+-qual a diferença de div e section, ja que as duas servem para separar ''assunto'' ou ''titulo'' 

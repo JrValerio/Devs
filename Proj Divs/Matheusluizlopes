@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Historia do HTML</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Historia do HTML</h1>
+        <h2>O inicio do começo</h2>
+            <p>O <strong>HTML</strong> foi criado em 1991 pelo fisico britanico Tim Berners-Lee juntamente com a ajuda do estudante da CERN (European Council for Nuclear Research) <s>Steins;Gate Refernce?</s> Robert Cailliau. A linguagem tinha por objetivo, interligar instituições de pesquisa parceiras, para assim compartilharem documento e artigos cientificos. Assim criou-se então o HTML(<em>HyperText Markup Language</em> ou aportuguesando <strong>Linguagem de Marcação de Hipertexto</strong>, que a seguir vamos ver como ela transformou a internet dos anos 2000.</p>
+      <h2>O irmão mais velho</h2>
+              <p>OK!OK! Já vimos  o "como"  e o "porque" HTML surgiu, mas o que provavelmente voce ainda não sabe é que o HTML não é a unica linguagem de marcação existente, alias não é nem a primeira delas, na verdade a primeira linguagem de marcação é um carinha chamado SGML <em>(Standard Generalized Markup Language)</em>, esta que é bem mais velho que o HTML, surgiu na decada de 60, criado  pelos pesquisadores da IBM C. Goldfarb, E. Mosher e R. Lorie, com a intenção de criar um sistema portavel, que não dependesse do sistema operacional e nem do formato do arquivo, ou seja, eles queriam uma linguagem simples e efetiva, ultilizando um sistema de <i>"Marcação Generalizada"</i>, que tinha objetivo em: </p>
+              <ul>
+              <li>A marcação de um documento deve descrever a estrutura do documento e outros atributos do mesmo, em vez de especificar o processamento a ser feito no mesmo.</li>
+              <li>A marcação deve ser definida rigorosamente, de forma que sistemas formais como programas possam ser usados para processar o documento</li>
+              </ul>
+              <p>O que isso siginifica eu não sei, mas era o que eles queriam.</p>
+              <p>Dito isso não parou por ai, as linguagens de marcação continuaram a evoluir e se ramificar, hoje em dia temos dezenas delas, para ter uma noção basica, essas são algumas linguagens da familia "ML" em ordem cronologica:</p>
+               <p>SGML &rarr; HTML 1.0 &rarr; HTML xx &rarr; XML &rarr;HTML 4.01 &rarr; XHTML &rarr; HTML5</p>
+              <p>Enfim, é "ML" que não acaba mais</p>
+      <h2>O Bum! da WWW</h2>
+              <p>cerca de 1 ano depois da criação do HTML (ou seja, em 1992), foi liberada a biblioteca de desenvolvimento chamada (<strong>World Wide Web<strong>), ou para os mais intimos o WWW, sim isso mesmo, qualquer site conectado a essa rede começa com o famoso WWW, que junto com o HTML se espalhou pelo mundo dando inicio a era antiga da internet, sim era antiga, e o que se esperar de algo mais antigo? Um design no minimo diferenciado, na verdade não tinha muito o que ser feito ja que disign e internet naquela época não se misturavam, as formatações eram muito basicas, na verdade eram muito parecidos com o mini-blogue que voce está lendo agora, poucas cores e poucas formatações, apenas em 1996 surgiu o grande parceiro do HTML, o inespugnavel CSS, e ai meu amigo, a coisa ficou séria!</p>
+      <h2>O monstro maquiador</h2>
+              <p>Eu não estou exagerando o CSS(<strong>Cascading Style Sheets</strong>) ou Folhas de estilo em cascata, <s>sim em Portugues o nome fica ridiculo</s>, mudou a Web da agua para o vinho, seus criadores são Håkon Wium Lie e Bert Bos, a idéia do CSS e ultilizar o HTML apenas para estruturar a pagina de uma meneira geral e ultilizar o CSS para moldar os elementos da pagina, foi uma sacada genial, e assim se deu inicio a internet moderna.</p>
+      <h2>Conclusão</h2>
+              <p>A internet de hoje em dia nada mais é do que o resultado de um processo de evolução, tanto das linguagens e tecnologias e protocolos. Contudo é muito interessante saber como ocorreram essas mudanças e mais importante ainda, e saber o porque das "coisas", por isso eu amo tanto a tecnologia quanto sua historia que é igualmente interessante. Vamos procurar saber o "porque das coisas".</p>
+              <img/ src="https://media.giphy.com/avatars/kenziebr/Tkw55b7QUvYh.png"/>
+              
+              Por Matheus Luiz Lopes
+              
+              OBS:essa imagem ficou exageradamente grande, meu Deus, não sei como arrumar
+              
+    
+      
+    </body>
+
+</html>

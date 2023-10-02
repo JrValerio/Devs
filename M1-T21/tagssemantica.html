@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulários e Inputs</title>
+  </head>
+  <body>
+    <form action="./">
+      <fieldset>
+        <legend>Cadastro de Usuário</legend>
+        <div>
+          <label for="input_email">Email: </label>
+          <input
+            type="email"
+            placeholder="Digite seu melhor email..."
+            id="input_email"
+            name="login"
+            required
+          />
+        </div>
+        <div>
+          <label for="input_pass">Senha: </label>
+          <input
+            type="password"
+            placeholder="Digite uma senha segura..."
+            id="input_pass"
+            name="senha"
+            required
+          />
+        </div>
+        <div>
+          <label for="input_color">Cor preferida: </label>
+          <input type="color" id="input_color" />
+        </div>
+
+        <section>
+          <p>Selecione sua turma:</p>
+          <div></div>
+          <div>
+            <label for="input_radio_t19">T19</label>
+
+            <input type="radio" id="input_radio_t19" value="t19" name="valor_selecionado" />
+
+            <label for="input_radio_t20">T20</label>
+
+            <input type="radio" id="input_radio_t19" value="t20" name="valor_selecionado" />
+            
+            <label for="input_radio_t21">T21</label>
+
+            <input type="radio" id="input_radio_t19" value="t21" name="valor_selecionado" />
+            <!-- <label for="select_turma">Selecione sua turma: </label>
+            <select id="select_turma">
+              <option value="t21">T19</option>
+              <option value="t20">T20</option>
+              <option value="t21">T21</option>
+            </select> -->
+          </div>
+          <div>
+            <h1>Teste</h1>
+          </div>
+        </section>
+        <section>
+          <label for="select_instructor">Selecione o Instrutor: </label>
+          <select id="select_instructor">
+            <option value="alex">Alex Sakaki</option>
+            <option value="thiago">Thiago "TK" Koman</option>
+            <option value="lorena">Lorena</option>
+            
+          </select>
+        </section>
+        <div>
+          <div>
+            <label for="input_description">Fale sobre você: </label>
+          </div>
+          <textarea
+            id="input_description"
+            cols="30"
+            rows="5"
+            placeholder="Conte um pouco da sua história..."
+          ></textarea>
+        </div>
+        <input type="submit" value="Cadastrar" />
+      </fieldset>
+    </form>
+
+    <fieldset>
+      <legend>Saudação</legend>
+      <p>Hoje é sexta feira dia <br>de <strong>estudar</strong> muito</p>
+    </fieldset>
+  </body>
+</html>
