@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="Cadastro" action="">
+        <fieldset>
+          <legend>Cadastro de Usuário</legend>
+          <div class="registro">
+            <div>
+              <label for="input_nome">Nome completo:</label> <br />
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Digite seu nome aqui..."
+                required
+              />
+            </div>
+            <div>
+              <label for="input_email">E-mail:</label> <br />
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Digite seu E-mail aqui..."
+                required
+              />
+            </div>
+          </div>
+          <div>
+            <label for="input_pass">Cadastre uma Senha:</label> <br />
+            <input
+              type="password"
+              placeholder="Digite sua senha segura"
+              id="input_pass"
+              required
+            />
+          </div>
+          <div>
+            <label for="input_pass">Confirme sua Senha:</label> <br />
+            <input
+              type="password"
+              placeholder="Confirme sua senha..."
+              id="input_pass"
+              required
+            />
+          </div>
+          <div>
+            <label for="input_color">Qual sua Cor Preferida:</label> <br />
+            <input type="color" id="input_color" />
+          </div>
+  
+          <section>
+            <div>
+              <label for="select_turma">Selecione sua Turma:</label> <br />
+              <select id="select_turma">
+                <option disabled selected value="">Selecione uma opçao</option>
+                <option value="t19">T19</option>
+                <option value="t20">T20</option>
+                <option value="t21">T21</option>
+                <option value="t22">T22</option>
+              </select>
+            </div>
+          </section>
+  
+          <section>
+            <div>
+              <label for="select_instructor">Selecione seu Instrutor:</label>
+              <br />
+              <select id="select_instructor">
+                <option disabled selected value="">Selecione uma opçao</option>
+                <option value="Alex">Alex Sakaki</option>
+                <option value="Thiago">Thiago "TK Koman</option>
+                <option value="Lorena">Lorena</option>
+                <option value="Chrys">Chrystian</option>
+              </select>
+            </div>
+          </section>
+  
+          <div>
+            <label for="input_description">Fale sobre você:</label>
+          </div>
+  
+          <textarea
+            name="input_description"
+            id=""
+            cols="35"
+            rows="10"
+            placeholder="Conte um pouco da sua história..."
+          >
+          </textarea>
+          <div>
+            <label for="input_radio"
+              >Deseja receber novidades em seu E-mail?</label
+            >
+            <br />
+  
+            <label for="">Sim</label>
+            <input type="radio" value="sim" name="text" />
+  
+            <label for="">Não</label>
+            <input type="radio" value="nao" name="text" />
+          </div>
+  
+          <input type="submit" value="Enviar informações" />
+          <input type="reset" value="Cancelar" />
+        </fieldset>
+      </form>
+    
+</body>
+</html>

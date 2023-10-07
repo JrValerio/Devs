@@ -1,0 +1,57 @@
+/*@import url(); link do font google*/
+
+/*seletores de tags;*/
+h1 {
+    color: red;
+}
+p {
+    color: blue;
+}
+h3 {
+    color: green;
+}
+span {
+    color: red;
+}
+
+/*Seletores de classe */
+.description {
+    color: green;
+}
+.price {
+    color: red;
+}
+
+/*Seletores de id */
+#entrada {
+    color: yellowgreen;
+}
+#principal {
+    color: green;
+}
+
+.descrição {
+    /*color: rgb(250, 250, 250)*/
+    /*color: rgba(250, 0, 0, 0)*/
+    color: #DAA520
+}
+
+/*Seletores de texto*/
+.descrição {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 900;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+
+}
+a {
+    text-decoration: none;
+}
+
+/** {
+    color: purple;
+}*/
+
+.section_entrada {
+    background-color: aquamarine;
+}
