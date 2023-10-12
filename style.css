@@ -1,0 +1,82 @@
+@import "./reset.css";
+
+* {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #000000;
+    margin-top: 70px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    
+}
+
+header img {
+    width: 200px;
+    margin-bottom: 50px;    
+}
+
+p {
+    text-align: center;
+    color: gray;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 50px;  
+    text-align: center; 
+}
+
+.container-main {
+    width: 1000px;
+    margin: 0 auto;    
+    text-align: center;
+}
+
+ul img {
+    width: 200px;
+    border-radius: 5px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 45px;
+}
+
+button:hover {
+    background-color: white;
+    color: #000000;
+}
+
+.card-item:hover .card-img{
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+.card-item:hover .item-profile{    
+    color: white;
+    transition: 0.5s;
+
+}
+
+.card-item, .item-profile {
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+
