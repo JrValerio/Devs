@@ -1,0 +1,5 @@
+const menuList=document.getElementById("menu-list");const mobileBtn=document.getElementById("mobile-btn");mobileBtn.addEventListener("click",()=>{menuList.classList.toggle("active")});const firstInteractionFieldList=["utm_source_first","utm_medium_first","utm_campaign_first","utm_content_first","utm_term_first","has_src_first","has_cam_first","has_grp_first","has_ad_first",];const queryString=window.location.search;const params=new URLSearchParams(queryString);function getCookie(cookieName){const cookie=document.cookie.split("; ").find((row)=>row.startsWith(cookieName));if(cookie){return cookie.split("=")[1]}else{return undefined}}
+function setCookie({name,value}){document.cookie=`${name}=${value}; domain=.kenzie.com.br; samesite=strict; secure;`}
+function setFirstInteractionInCookies(params){firstInteractionFieldList.forEach((field)=>{const cookieValue=getCookie(field);const paramValue=params.get(field.replace("_first",""));if(cookieValue===undefined&&paramValue!==null)
+setCookie({name:field,value:paramValue})})}
+setFirstInteractionInCookies(params)

@@ -1,0 +1,10 @@
+Lavagem de roupa
+
+1 - Ligar a máquina (está ligada na tomada?)
+2 - Colocar a roupa na máquina
+3 - Colocar sabão
+4 - Colocar amaciante
+5 - Selecionar o tipo de Lavagem
+5.1 - Se for lavagem rápida, a máquina irá lavar em 30 máquina
+5.2 - Se for uma lavagem completa, a máquina irá lavar em 2h
+

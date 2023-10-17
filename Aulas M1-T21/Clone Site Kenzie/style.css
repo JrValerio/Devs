@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+
+
+/* Estilo para o elemento path */
+path {
+    fill: rgba(255, 255, 255, 0.753); /* Cor de preenchimento vermelho */
+    stroke: #ffffff; /* Cor da borda preta */
+    stroke-width: 1; /* Largura da borda de 2 unidades */
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    background-color: blue;     
+}
+
+footer {
+    background-color: #0a1e32;
+    display: flex;    
+}
+
+
+
+
