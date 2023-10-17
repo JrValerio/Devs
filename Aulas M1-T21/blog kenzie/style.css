@@ -30,10 +30,10 @@ nav ul {
   justify-content: space-evenly;
 }
 
-nav li {  
+nav li {
   position: relative;
   margin: 0 30px; /* Ajuste o valor da margem conforme necessário */
-  transition: transform 0.3s; /* Adicione uma transição para um efeito hover mais suave */ 
+  transition: transform 0.3s; /* Adicione uma transição para um efeito hover mais suave */
   transform-origin: center; /* Define o ponto de origem no centro do elemento */
   padding: 5px;
 }
@@ -50,7 +50,9 @@ nav li::before {
 }
 
 nav li:hover {
-  transform: scale(1.1); /* Aumenta o tamanho do item no hover (ajuste conforme necessário) */
+  transform: scale(
+    1.1
+  ); /* Aumenta o tamanho do item no hover (ajuste conforme necessário) */
   font-weight: bold; /* Altera o peso da fonte no hover (ajuste conforme necessário) */
   color: #0d0d0e; /* Altera a cor do texto no hover (ajuste conforme necessário) */
   /* Adicione qualquer outro estilo desejado para o efeito de hover */
@@ -59,8 +61,6 @@ nav li:hover {
 nav li:hover::before {
   width: 90%; /* Aumenta a largura para criar o efeito de linha em movimento */
 }
-
-
 
 main {
   max-width: 1400px;
