@@ -58,21 +58,22 @@ let texto = "Sexta feira é um dia 'ruim'"
 
 // alert
 
-// alert("Seu antivirus está desatualizado!")
-// prompt("Digite sua senha para atualizar")
+alert("Seu antivirus está desatualizado!")
+prompt("Digite seu email para atualizar:")
+prompt("Digite sua senha para atualizar:")
 
-// let nome = prompt("Digite seu nome: ")
-// let idade = prompt("digite sua idade")
+let nome = prompt("Digite seu nome: ")
+let idade = prompt("digite sua idade:")
 
-// function condicao(idade){
+function condicao(){
 
-// if(idade > 18){
-//     alert(`${nome} tem ${idade} anos, e está apto para dirigir`)
-// }else{
-//     alert(`${nome} tem ${idade} anos, não está apto para dirigir`)
-// }
-// }
-// condicao()
+if(idade > 18){
+    alert(`${nome} tem ${idade} anos, e está apto para atualizar seu antivirus`)
+}else{
+    alert(`${nome} tem ${idade} anos, procure um adulto e refaça seu pedido`)
+}
+}
+condicao()
 
 // alert(`seu nome é ${nome} e sua idade é ${idade} `)
 
