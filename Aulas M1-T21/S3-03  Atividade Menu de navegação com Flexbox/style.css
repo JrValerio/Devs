@@ -43,8 +43,6 @@ nav a {
   text-decoration: none;
   color: #f8f8f8;
   padding: 5px 20px; /* Aumentei o espaço clicável do link */
-  
-  
 }
 
 nav li::before {
@@ -59,16 +57,14 @@ nav li::before {
   transition: width 0.5s;
 }
 
-nav li a:hover {   
+nav li a:hover {
   transform: scale(1.1);
-  font-weight: bold;
+
   color: #fbfbff;
-  
-  
 }
 
 nav li a.active {
-    border-bottom: 2px solid #f8f8f8;
+  border-bottom: 2px solid #f8f8f8;
   transform: scale(1.1);
   font-weight: bold;
   color: #fbfbff;
