@@ -1,0 +1,5 @@
+Os dois códigos são independentes e não interagem diretamente. O primeiro código era uma descrição do algoritmo em linguagem natural, enquanto o segundo código era uma implementação em JavaScript desse algoritmo. A implementação em JavaScript foi feita com base nas etapas descritas no primeiro código, mas eles não estão conectados.
+
+Se você deseja fazer com que a implementação em JavaScript siga o algoritmo descrito no primeiro código, você pode simplesmente copiar e colar o segundo código em um ambiente de desenvolvimento JavaScript, como um navegador da web ou um editor de código, e executá-lo. As funções no segundo código executarão as ações de acordo com as etapas definidas no algoritmo descrito no primeiro código.
+
+Assim, o segundo código é uma representação prática e funcional das ações a serem executadas para seguir o algoritmo de fazer um bolo de chocolate com cobertura. Eles não estão diretamente conectados, mas o segundo código implementa o algoritmo descrito no primeiro.
