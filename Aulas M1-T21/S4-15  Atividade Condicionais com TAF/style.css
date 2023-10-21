@@ -1,0 +1,33 @@
+/* style.css */
+
+/* Estilo da tabela */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Estilo das células da tabela com resultados verdadeiros */
+td.true {
+  color: green;
+}
+
+/* Estilo das células da tabela com resultados falsos */
+td.false {
+  color: red;
+}
+
+.clickable {
+    cursor: pointer;
+}
