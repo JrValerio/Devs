@@ -5,8 +5,7 @@
 // - Coloque a manteiga na batedeira.
 // - Coloque o açúcar na batedeira.
 // - Ligue a batedeira.
-// - Enquanto houver gemas, junte uma gema e depois bata até obter
-// um creme homogêneo
+// - Enquanto houver gemas, junte uma gema e depois bata até obter um creme homogêneo
 // - Adicione aos poucos o leite.
 // - Desligue a batedeira.
 // - Adicione a farinha de trigo.

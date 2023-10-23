@@ -1,5 +1,42 @@
-Os dois códigos são independentes e não interagem diretamente. O primeiro código era uma descrição do algoritmo em linguagem natural, enquanto o segundo código era uma implementação em JavaScript desse algoritmo. A implementação em JavaScript foi feita com base nas etapas descritas no primeiro código, mas eles não estão conectados.
+tarefa: bolo mesclado com massa branca e de chocolate com cobertura de brigadeiro
 
-Se você deseja fazer com que a implementação em JavaScript siga o algoritmo descrito no primeiro código, você pode simplesmente copiar e colar o segundo código em um ambiente de desenvolvimento JavaScript, como um navegador da web ou um editor de código, e executá-lo. As funções no segundo código executarão as ações de acordo com as etapas definidas no algoritmo descrito no primeiro código.
+entrada: 
 
-Assim, o segundo código é uma representação prática e funcional das ações a serem executadas para seguir o algoritmo de fazer um bolo de chocolate com cobertura. Eles não estão diretamente conectados, mas o segundo código implementa o algoritmo descrito no primeiro.
+1- ingredientes
+2- batedeira
+3- forma
+4- panela
+5- fogão/forno
+
+processamento:
+
+1- adicionar 1 xícara de manteiga
+2- adicionar 2 xícaras de açúcar
+3- pegar 4 ovos e separar as gemas das claras, deixar as claras a parte
+4- adicionar 4 gemas 
+5- bater até obter um creme omogenio 
+6- desligar a batedeira
+7- adicione aos poucos as 3 xícaras de farinha de trigo, intercalando com o leite
+8- adicione aos pucos 1 xícara de leite, intercalando com a farinha de trigo
+9- ligue o forno em temperatura média
+10- bata as claras em neve
+11- adicione as claras em neve, misturando delicadamente
+12- adicione 1 colher de sopa de fermento
+13- unte uma forma retangular com manteiga e povilhe com farinha de trigo
+14- coloque metade da massa na forma
+15- adicione 1/2 xícara de chocolate em pó na metade da massa que ficou, mecha delicadamente
+16- coloque a outra metade da massa com chocolate na forma por cima da outra massa
+17- colocar a forma com a massa no forno preaquecido para assar
+18- esperar aproximadamente 30 minutos
+19- adicionar 1 caixa de leite condensado em uma panela
+20- adicionar 1 gema
+21- adicionar 1/2 xícara de chocolate
+22- adicionar 1 colher de sopa de margarina
+23- adicionar 1 colher de sopa de maizena
+24- mexer em fogo alto até engrossar (reservar)
+25- 30 minutos depois, retirar a forma do forno e desenformar o bolo ainda quente e reserve até esfriar
+26- colocar a cobertura em cima do bolo
+
+saida:
+
+1- bolo pronto mesclado com massa branca e de chocolate com cobertura de brigadeiro
