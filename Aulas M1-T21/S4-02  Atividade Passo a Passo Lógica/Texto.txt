@@ -39,4 +39,4 @@ processamento:
 
 saida:
 
-1- bolo pronto mesclado com massa branca e de chocolate com cobertura de brigadeiro
+1- bolo mesclado com massa branca e de chocolate com cobertura de brigadeiro pronto para consumo
