@@ -109,10 +109,6 @@
 // true && false = false
 // false && false = false
 
-
-
-
-
 // -----------------------------------------Bonus (Máquina de lavar industrial)--------------------------------------
 
 // Problema: Definir o tempo de lavagem!
@@ -120,11 +116,11 @@
 // Variáveis:
 
 // O peso pode variar entre 0kg até mais de 8kg
-// let pesoRoupas = 50;
+let pesoRoupas = 50;
 // O tipo de lavagem pode ser "rapida", "normal", "completa"
-// let tipoLavagem = "normal";
+let tipoLavagem = "normal";
 // Tempo total da lavagem em min (mínimo 20)
-// let tempoTotal = 0;
+let tempoTotal = 0;
 
 // 1. Peso das roupas e tipo de lavagem:
 
@@ -196,4 +192,4 @@ if (pesoRoupas <= 5) {
   }
 }
 
-// console.log(`O tempo total da lavagem, será de ${tempoTotal} minutos`);
+console.log(`O tempo total da lavagem, será de ${tempoTotal} minutos`);
