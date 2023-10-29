@@ -1,0 +1,110 @@
+.elemento p{
+    color: orange;
+}
+
+.elemento > p{
+    color: red;
+}
+
+.elemento{
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+h3{
+    font-size: inherit;
+}
+
+
+header{
+    background: rgb(255, 255, 192);
+}
+main{
+    background: rgb(182, 255, 182);
+}
+footer{
+    background: rgb(206, 206, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer > div{
+    width: 120px;
+    height: 120px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.movimento{
+    background: blue;
+    font-size: 14px;
+    border: 0px solid transparent;
+    transition: 2s;
+}
+
+.movimento:hover{
+    width: 200px;
+    height: 200px;
+    background: red;
+    font-size: 20px;
+    color: black;
+    border: 5px solid black;
+}
+
+.estatico{
+    background: red;
+    color: black;
+}
+
+fieldset{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+#email{
+    background: transparent;
+    border: 0px solid transparent;
+    border-bottom: 2px solid black;
+    transition: 1s;
+}
+
+#email:focus{
+    outline: none;
+    background: rgba(255,255,255,0.5);
+    border-bottom: 2px solid rgb(223, 112, 0);
+}
+
+.card img{
+    max-width: 100%;
+    transition: 1s;
+}
+
+.card{
+    width: 25%;
+    border: 2px solid black;
+}
+
+.card p{
+    text-align: center;
+    transition: 1s;
+}
+
+.card:hover > p{
+    color: red;
+}
+
+.card:hover img{
+    transform: scale(0.8);
+}
+
+li::before{
+    content: "TESTANDO: ";
+    color: red;
+}

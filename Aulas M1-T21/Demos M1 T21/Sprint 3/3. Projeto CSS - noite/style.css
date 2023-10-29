@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap');
+
+*, a, h3, label, input{
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+header{
+    background:#001e32;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    box-sizing: border-box;
+    height: 10vh;
+}
+
+header > nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > img{
+    max-width: 50px;
+    background: blue;
+    border-radius: 14px;
+    padding: 10px;
+}
+
+header a{
+    color:white;
+    margin: 0 10px;
+    transition: 0.5s;
+    text-decoration:underline;
+}
+
+header a:hover{
+    /* font-size: 1.2rem; */
+    transform: scale(1.2);
+}
+
+main{
+    background: #4c72d1;
+    color: white;
+    height: 70vh;
+}
+
+main > h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 16px 0; 
+    /* padding-top: 16px;
+    padding-bottom: 16px; */
+}
+
+.cards article{
+    border: 2px solid white;
+    height: 200px;
+    width: 35%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background: rgba(202,208,254, 0.5);
+    background: linear-gradient(315deg, rgba(202,208,254,0.5) 33%, rgba(235,235,235,0.5) 100%);
+    border-radius: 12px;
+    box-shadow: 6px 7px 12px 0px rgba(0,0,0,0.75);
+}
+
+.cards article:hover h4{
+    font-size: 30px;
+}
+
+.cards article h4{
+    transition: 0.5s;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer{
+    background: #001e32;
+    color: white;
+    text-align: center;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+footer h3{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 16px 0; 
+}
+
+input::placeholder{
+    color: rgb(255, 0, 179);
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML - Formulário</title>
+    </head>
+    <body>
+        <!-- O que são os formulários -->
+        <form>
+            <fieldset>
+                <legend>Cadastro de aluno</legend>
+
+
+                <label for="input_email">Email:</label>
+                <input id="input_email" type="email" placeholder="mail@email.com" name="email" required/> 
+
+                <label>Senha:</label>
+                <input type="password" name="senha" required/>
+
+                <label for="input_cor">Cor do perfil</label>
+                <input id="input_cor" type="color" name="cor"/>
+
+                <section>
+                    <p>Selecione uma turma!</p>
+                    <div>
+                        <input type="radio" value="t19" name="turma"/>
+                        <label>T19</label>
+                    </div>
+                    <div>
+                        <input type="radio" value="t20" name="turma"/>
+                        <label>T20</label>
+                    </div>
+                    <div>
+                        <input type="radio" value="t21" name="turma"/>
+                        <label>T21</label>
+                    </div>
+                </section>
+
+                <label>Intrutor(a)</label>
+                <select name="Intrutor">
+                    <option disabled selected value="">Selecione uma opção</option>
+                    <option value="Alex">Alex</option>
+                    <option value="Lore">Lorena</option>
+                    <option value="TK">Thiago</option>
+                </select>
+
+                <section>
+                    <p>Descrição:</p>
+                    <textarea placeholder="Escreva uma breve descrição.." rows="5" cols="40" maxlength="200" name="descricao"></textarea>
+                </section>
+
+                <!-- <input type="submit"/> -->
+                <button>Enviar informações</button>
+            </fieldset>
+
+            <fieldset>
+                <legend>Endereço do usuário</legend>
+                <input>
+            </fieldset>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+/* Seletores de tags; */
+/* h1 {
+    color: red;
+} */
+
+/* p {
+    color: blue;
+} */
+
+/* h3 {
+    color: green;
+}
+
+span {
+    color: red;
+} */
+/* Seletores de classe; */
+/* 
+.description {
+    color: green;
+}
+
+.price {
+    color: red;
+} */
+
+/* Seletores de id; */
+
+/* #entrada {
+    color: yellowgreen;
+}
+
+#principal {
+    color: brown;
+} */
+
+.descricao {
+  /* color: blue; */
+  /* color: rgb(50, 224, 35); */
+  /* color: rgba(250, 0, 0, 1); */
+  /* color: #DAA520 */
+  /*color: aqua; */
+
+  font-size: 18px;
+  line-height: 50px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.preco {
+  font-size: 30px;
+}
+
+li {
+    color: brown;
+}
+
+.section_entrada {
+    background-color: aqua;
+    color: black;
+}
+    

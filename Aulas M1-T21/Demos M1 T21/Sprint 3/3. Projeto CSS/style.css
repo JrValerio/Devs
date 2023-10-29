@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Just+Another+Hand&display=swap");
+
+/* font-family: 'Handlee', cursive;
+font-family: 'Just Another Hand', cursive; */
+
+li,
+h2,
+h4,
+h3 {
+  font-family: "Handlee", cursive;
+}
+
+span,
+p {
+  font-family: "Just Another Hand", cursive;
+}
+
+/* ----------------------------------------------------------Estilizando o header------------------------------------------------------ */
+
+header {
+  background-color: #bc9494;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 1px 15px 1px rgba(0, 0, 0, 0.75);
+}
+
+.nav-container {
+  width: 60%;
+  /* margin: 0 auto; */
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  border: 3px solid #e8caca;
+  border-radius: 50%;
+  background-color: #5b2929;
+}
+
+span {
+  color: #cfd9bc;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  flex-wrap: wrap;
+  color: #5b2929;
+  /* gap: 15px; Encaixa também*/
+}
+
+li {
+  font-size: 18px;
+  border-bottom: 1px solid transparent;
+}
+
+li:hover {
+  transition: border 0.55s linear;
+  cursor: pointer;
+  color: #f6fdc3;
+  border-bottom: 1px solid #f6fdc3;
+}
+
+/* ----------------------------------------------------------Estilizando o main------------------------------------------------------ */
+
+main {
+  background-color: #e8caca;
+  /* A altura da main, estava limitando o tamanho dos filhos, logo a altura fica definida pelo conteúdo que está dentro da main */
+  /* height: 70vh; */
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.section-container {
+  max-width: 60%; /* definir o tamanho do container para alinhar ao nav */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* espaço entre os cards*/
+  align-items: center;
+}
+
+.title-section {
+  width: 100%; /* para ele ocupar toda a parte de cima da section e deixar os cards abaixo */
+  font-size: 25px;
+  font-weight: bold;
+  color: #5b2929;
+}
+
+.card {
+  margin-top: 40px; /* descolar os cards uns dos outros de cima pra baixo*/
+  width: 45%;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center; /* Alinha o título pois a tag p é um texto. Deve usar o text-align para alinhar os dois caso queira*/
+  justify-content: space-evenly;
+  border: 1px solid #5b2929;
+  border-radius: 5px;
+  background-color: #996c6c;
+}
+
+.card:hover {
+  cursor: pointer;
+  text-decoration: #f6fdc3 underline 0.5px;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.37);
+}
+
+.card-title {
+  color: #f6fdc3;
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.card-description {
+  color: #e8caca;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* ----------------------------------------------------------Estilizando o footer------------------------------------------------------ */
+
+footer {
+  background-color: #bc9494;
+  box-shadow: 0px 1px 15px 1px rgba(0, 0, 0, 0.75);
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-container {
+  width: 60%; /* defino o tamanho do container e centralizo com o margin 0 auto*/
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+
+h3 {
+  color: #5b2929;
+}
+
+.newsletter,
+.sugestion {
+  margin: 5px 0;
+  height: 70%;
+}
+
+.newsletter,
+form,
+.sugestion {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+input {
+  border: 2px solid transparent;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+input:focus {
+  border: 2px solid #5b2929;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #996c6c;
+  color: #f6fdc3;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.37);
+  transition: 0.05s;
+  padding: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* Pseudo-classe active para pegar a estilização quando o botão estiver ativo, ou seja, ao clicar nele */
+button:active {
+  margin-left: 3px;
+  margin-top: 3px;
+  box-shadow: none;
+}

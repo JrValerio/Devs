@@ -1,0 +1,59 @@
+div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    /* transition: 0.5s; */
+    transition: 0.5s;
+    box-shadow: 30px 20px 15px 20px yellow;
+    
+}
+
+p {
+    color: blue;
+}
+
+div p {
+    color: red;
+    background-color: yellow;
+}
+
+/* #id{
+    background-color: blueviolet;
+}
+
+.classe {
+    background-color: aqua;
+}
+
+#id div {
+    background-color: brown;
+} */
+
+
+
+p {
+    width: fit-content;
+    border-bottom: 2px solid transparent;
+}
+
+p:hover {
+    transition: 2s;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 7px;
+    padding-left: 5px;
+}
+
+input:focus {
+    background-color: yellow;
+    border: 1px solid yellowgreen;
+    width: 200px;
+}
+
+input:hover {
+    background-color: blueviolet;
+}

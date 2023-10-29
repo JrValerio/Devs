@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Poppins&display=swap');
+
+body{
+    background: rgb(0, 0, 0);
+}
+
+p{
+    line-height: 25px;
+    font-family: 'Poppins', sans-serif;
+    background: rgba(0,0,0,0.1);
+    color: white;
+}
+
+.negrito{
+    font-family: 'Pixelify Sans', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.italico{
+    font-family: 'Pixelify Sans', cursive;
+    font-style: italic;
+    font-size: 10px;
+}
+
+header{
+    background: yellow;
+    text-align: center;
+}
+
+main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background: red;
+    padding: 20px;
+    max-width: 700px;
+}
+
+div{
+    background: rgba(255,255,255,0.5);
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    padding: 20px;
+    border: 4px dashed black;
+    border-radius: 12px;
+    box-sizing: border-box;
+    min-width: 150px;
+}
+
+ul{
+    /* list-style: circle; */
+    background: white;
+    border-radius: 12px;
+    padding: 10px;
+}

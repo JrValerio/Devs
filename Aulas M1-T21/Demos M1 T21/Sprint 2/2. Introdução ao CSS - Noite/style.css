@@ -1,0 +1,32 @@
+article{
+    background: rgb(154, 154, 255);
+}
+
+h3{
+    color: rgba(255, 0, 0, 1);
+    opacity: 1;
+    background: black;
+}
+
+#titulo-2{
+    color: yellow;
+}
+
+.paragrafo-article{
+    color: white;
+}
+
+p{
+    color: red;
+}
+
+#parag-1{
+    color: black;
+}
+
+/* 
+ - Importar um CSS
+ - Seletores
+ - Hierarquia de estilos (tag >> class >> id)
+ - Cores
+*/
