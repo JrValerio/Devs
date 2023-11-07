@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S6-13  💪 Atividade Loops while </title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.0/themes/prism.min.css">
+</head>
+<body>
+    <header>
+        <h1>S6-13  💪 Atividade Loops while </h1>
+    </header>
+    <body>
+        <h1>Exercício Resolvido</h1>
+        <p>O cardápio de uma lanchonete é o seguinte:</p>
+        <table>
+            <tr>
+                <th>Especificação</th>
+                <th>Código</th>
+                <th>Preço</th>
+            </tr>
+            <tr>
+                <td>Cachorro Quente</td>
+                <td>101</td>
+                <td>R$ 1,20</td>
+            </tr>
+            <tr>
+                <td>Bauru Simples</td>
+                <td>102</td>
+                <td>R$ 1,30</td>
+            </tr>
+            <tr>
+                <td>Bauru com ovo</td>
+                <td>103</td>
+                <td>R$ 1,50</td>
+            </tr>
+            <tr>
+                <td>Hambúrguer</td>
+                <td>104</td>
+                <td>R$ 1,20</td>
+            </tr>
+        </table>
+        <p>Calcule e alerte o total a ser pago. Considere que o cliente deve informar o número 0 quando o pedido for encerrado.</p>
+        <p>Quando o cliente entrar com um valor inválido alerte com mensagem: "Pedido indisponível" ou "Pedido não encontrado".</p>
+        <h2>Resolução</h2>
+        <pre>
+            <code class="language-javascript">
+                let escolha = parseInt(prompt("Digite o código do produto ou 0 para sair"))
+                let valorTotalDoPedido = 0
+                let quantidade = 0
+                while(escolha != 0){
+                    if(escolha == 100){
+                        quantidade = parseInt(prompt("Qual a quantidade deste item?"))
+                        valorTotalDoPedido += quantidade * 1.20
+                    }else if(escolha == 101){
+                        quantidade = parseInt(prompt("Qual a quantidade deste item?"))
+                        valorTotalDoPedido += quantidade * 1.30
+                    }else if(escolha == 102){
+                        quantidade = parseInt(prompt("Qual a quantidade deste item?"))
+                        valorTotalDoPedido += quantidade * 1.50
+                
+                    }else if(escolha == 103){
+                        quantidade = parseInt(prompt("Qual a quantidade deste item?"))
+                        valorTotalDoPedido += quantidade * 1.20
+                
+                    }else if(escolha == 104){
+                        quantidade = parseInt(prompt("Qual a quantidade deste item?"))
+                        valorTotalDoPedido += quantidade * 1.30
+                    }else{
+                        alert('Produto indisponível')
+                    }
+                    escolha = parseInt(prompt("Digite o código do produto ou 0 para finalizar o pedido"))
+                }
+                alert(`Seu pedido ficou em ${valorTotalDoPedido}`)
+            </code>
+        </pre>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.0/prism.min.js"></script>
+        <section>
+            <p>1. Faça um programa que peça um valor entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido. </p>
+        </section>
+        <section>
+            <p>2. Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações.</p>
+        </section>
+        <section>
+            <p>3. Faça um programa que enquanto a entrada for números inteiros positivos, menores que 10, continue somando. Quando um valor negativo ou maior que 10 for informado, pare a execução, alerte a soma e a média.</p>
+        </section>
+        <section>
+            <p>4. Faça um programa que registre votos. Em uma eleição para o grêmio estudantil existem apenas 3 candidatos, o candidato a, o candidato b e o candidato c.</p>
+            <p>Solicite ao usuário que entre com a letra correspondente a um candidato e incremente em +1 o número de votos para o candidato. ⁠Caso o usuário entre com um valor que não seja correspondente a um candidato, alerte: <strong>"Candidato não encontrado"</strong>.</p>
+            <p>Ao final de cada votação alerte a mensagem: <strong>"Voto registrado com sucesso"</strong>. </p>
+            <p>Para encerrar a votação é necessário que entre com uma flag (variável de controle) de parada: use o <strong>x</strong> para isso.</p>
+            <p>Quando o valor <strong>x</strong> for inserido alerte o número de votos que cada candidato teve. </p>
+        </section>
+    </body>
+</body>
+</html>
