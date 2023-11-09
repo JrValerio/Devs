@@ -1,0 +1,19 @@
+pre {
+    max-width: 700px; 
+    width: 100%; 
+    background-color: #333;
+    color: #ccc;
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    tab-size: 2;
+  }
+  
+  code {
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+  }
+  
