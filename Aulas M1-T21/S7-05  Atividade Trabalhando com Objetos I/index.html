@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>S7-05 💪 Atividade Trabalhando com Objetos I</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.0/themes/prism.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>S7-05 💪 Atividade Trabalhando com Objetos I</h1>
+    </header>
+    <main>
+      <h2>1 ª Parte: Modelagem</h2>
+      <div>
+        <p>Dadas as propriedades:</p>
+        <ul>
+          <li>Nome</li>
+          <li>Ano de nascimento</li>
+          <li>CPF</li>
+          <li>Cidade</li>
+          <li>Estado</li>
+          <li>Logradouro</li>
+        </ul>
+        <p>
+          Crie o objeto <strong>pessoa</strong> contendo todas as propriedades
+          citadas.
+        </p>
+      </div>
+      <div>
+        <p>Dadas as propriedades:</p>
+        <ul>
+          <li>Nome</li>
+          <li>CNPJ</li>
+          <li>Área de atuação</li>
+          <li>Cidade</li>
+          <li>Estado</li>
+          <li>Logradouro</li>
+          <li>Curso</li>
+        </ul>
+        <p>
+          Crie o objeto <strong>escola</strong> contendo todas as propriedades
+          citadas.
+        </p>
+      </div>
+      <div>
+        <p>Dadas as propriedades:</p>
+        <ul>
+          <li>Nome</li>
+          <li>Duração em anos</li>
+          <li>Turma</li>
+          <li>Módulos</li>
+        </ul>
+        <p>
+          Crie o objeto <strong>curso</strong> contendo todas as propriedades
+          citadas.
+        </p>
+      </div>
+      <div>
+        <p>Dadas as propriedades:</p>
+        <ul>
+          <li>Cidade</li>
+          <li>Estado</li>
+          <li>Logradouro</li>
+          <li>CEP</li>
+        </ul>
+        <p>
+          Crie o objeto <strong>endereço</strong> contendo todas as propriedades
+          citadas.
+        </p>
+      </div>
+      <h2>2ª Parte: Manipulação - Estacionamento</h2>
+      <p>
+        Dado o objeto <strong>carro</strong> que representa um carro
+        estacionado, realize as seguintes tarefas:
+      </p>
+      <pre>
+            <code class="language-javascript">
+                const carro = {  
+                placa: "ABC123",   
+                classes: ["sedan"],  
+                luxo: true,
+                potencia: 200, 
+                estacionado: true  
+                }
+            </code>
+      </pre>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.0/prism.min.js"></script>
+      <div>
+        <p>1. Escreva uma função chamada <strong>obterPlaca:</strong></p>
+        <ul>
+            <li>A função, quando chamada, deve retornar a placa do carro.</li>
+            <li>Exemplo de chamada da função: <strong>obterPlaca()</strong> <br>
+                <strong>Saída:</strong> "ABC123"</li>
+        </ul>
+      </div>
+      <div>
+        <p>2. Escreva uma função chamada <strong>verificarClasses:</strong></p>
+        <ul>
+            <li>A função, quando chamada, deve retornar a(s) classe(s) do carro. </li>
+            <li>Perceba que a propriedade é um array - quando o array possuir apenas um elemento, retorne somente o valor do elemento, e quando o array possuir mais de um elemento, retorne todo o array.</li>
+            <li>Exemplo de chamada da função: <strong>verificarClasses()</strong> <br>
+                <strong>Saída:</strong> "sedan"</li>
+        </ul>
+      </div>
+      <div>
+        <p>3. Escreva uma função chamada <strong>potenciaReal:</strong></p>
+        <ul>
+            <li>A função, quando chamada, deve retornar a potência real do carro. </li>
+            <li>Caso o carro tenha a propriedade <strong>luxo</strong> definida como <strong>true</strong>, o valor da propriedade <strong>potencia</strong> é elevado ao quadrado.</li>
+            <li>Retorne o valor da potência do carro.</li>
+            <li>Exemplo de chamada da função: <strong>potenciaReal()</strong> <br>
+                <strong>Saída:</strong> 40000</li>
+        </ul>
+      </div>
+      <div>
+        <p>4. Crie uma função chamada adicionarNovaClasse que recebe uma string como parâmetro: </p>
+        <ul>
+            <li>Verifique se o número de classes do carro é maior ou igual a 3.</li>
+            <li>Se o número de classes for maior ou igual a 3, retorne: <strong>"Este carro não pode ter mais classes"</strong>.</li>
+            <li>Se o número de classes for menor que 3, verifique se a classe recebida está entre as classes permitidas: <strong>'sedan', 'hatchback', 'suv', 'crossover', 'cupê'</strong>.</li>
+            <li>Caso a classe recebida não estiver entre as classes permitidas, retorne: <strong>"Classe inválida. As classes permitidas são: sedan, hatchback, suv, crossover e cupê"</strong>.</li>
+            <li>Se a classe recebida estiver entre as classes permitidas, verifique se ela já está presente no objeto de carro.</li>
+            <li>Se a classe já estiver presente, retorne: <strong>"O carro já possui a classe x"</strong>, onde x é o valor da classe.</li>
+            <li>Se a classe não estiver presente, adicione-a à lista de classes do carro e retorne: <strong>"Classe x adicionada com sucesso"</strong>, onde x é o valor da classe.</li>
+            <li>Exemplo de chamada da função: <strong>adicionarNovaClasse('cupê')</strong> <br>
+                <strong>Saída:</strong> "Classe cupê adicionada com sucesso"</li>
+        </ul>
+      </div>
+      <div>
+        <p>5. Escreva uma função chamada <strong>naoMaisLuxo:</strong></p>
+        <ul>
+            <li>Verifique se o carro está estacionado. </li>
+            <li>Se o carro não estiver estacionado, retorne: <strong>"O carro {placa do carro} não está estacionado"</strong>.</li>
+            <li>Verifique se o atributo <strong>"luxo"</strong> do carro é verdadeiro.</li>
+            <li>Se o atributo <strong>"luxo"</strong> não for verdadeiro, retorne: <strong>"O carro {placa do carro} não é luxuoso"</strong>.</li>
+            <li>Se ambos os atributos estiverem corretos <strong>(carro estacionado e luxo verdadeiro)</strong>, altere o atributo <strong>"luxo"</strong> para falso.</li>
+            <li>Retorne: <strong>"O carro {placa do carro} não é mais considerado um carro de luxo"</strong>,.</li>
+            <li><strong>Obs.: Substitua "{placa do carro}" pela placa do carro em questão.</strong></li>
+            <li>Exemplo de chamada da função: <strong>naoMaisLuxo()</strong> <br>
+                <strong>Saída:</strong> "O carro ABC123 não é mais considerado um carro de luxo"</li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
