@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S7-07  💪 Atividade Manipulando Objetos e Arrays</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.0/themes/prism.min.css">
+</head>
+<body>
+    <header>
+        <h1>S7-07  💪 Atividade Manipulando Objetos e Arrays</h1>
+    </header>
+    <main>
+        <section>
+            <p>Os exercícios a seguir tem como propósito incentivar seu raciocínio lógico e técnico. Aqui você vai desenvolver ainda mais suas habilidades em <strong>funções, arrays, condicionais, loops e objetos</strong>.</p>
+            <p>Antes de darmos início as atividades, declararemos uma lista de departamentos. Estes departamentos fazem parte de uma empresa e seu objetivo é criar um sistema que consiga facilitar a manipulação dos dados dos departamentos.</p>
+            <pre>
+                <code class="language-javascript">
+                    const departmentList = [
+                    {
+                      departmentName: 'Financial',
+                      employees:
+                      [
+                        {
+                          name: 'Rose',
+                          age: 26,
+                          responsibility: 'Financial director',
+                          salary: 5600
+                        },
+                        {
+                          name: 'Stevem',
+                          age: 32,
+                          responsibility: 'Financial manager',
+                          salary: 4200
+                        },
+                        {
+                          name: 'Beca',
+                          age: 26,
+                          responsibility: 'Financial analyst',
+                          salary: 2800
+                        }
+                      ],
+                      working: true
+                    },
+                    {
+                      departmentName: 'Expedition',
+                      employees:
+                      [
+                        {
+                          name: 'Rooper',
+                          age: 35,
+                          responsibility: 'Expedition director',
+                          salary: 5600
+                        },
+                        {
+                          name: 'Maggie',
+                          age: 22,
+                          responsibility: 'Expedition manager',
+                          salary: 4200
+                        },
+                        {
+                          name: 'Thompson',
+                          age: 41,
+                          responsibility: 'Expedition analyst',
+                          salary: 2800
+                        }
+                      ],
+                      working: true
+                    },
+                    {
+                      departmentName: 'Capitation',
+                      employees:
+                      [
+                        {
+                          name: 'Saory',
+                          age: 35,
+                          responsibility: 'Capitation director',
+                          salary: 5600
+                        },
+                        {
+                          name: 'Silvia',
+                          age: 22,
+                          responsibility: 'Capitation manager',
+                          salary: 4200
+                        },
+                        {
+                          name: 'Sonem',
+                          age: 41,
+                          responsibility: 'Capitation analyst',
+                          salary: 2800
+                        },
+                        {
+                          name: 'Havi',
+                          age: 41,
+                          responsibility: 'Trainee Capitation manager',
+                          salary: 1500
+                        },
+                        {
+                          name: 'Margie',
+                          age: 25,
+                          responsibility: 'Capitation analyst',
+                          salary: 2800
+                        },
+                        {
+                          name: 'Victoria',
+                          age: 18,
+                          responsibility: 'Trainee Capitation analyst',
+                          salary: 1500
+                        }
+                      ],
+                      working: true
+                    },
+                  ]
+                  
+                  
+                </code>
+            </pre>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.0/prism.min.js"></script>
+        </section>
+        <div>
+            <h4>Importante</h4>
+            <ul>
+                <li>Para acessar a propriedade de um objeto usamos o ponto <strong>(.)</strong></li>
+                <li>Se alguma propriedade de um objeto for uma lista, é possível acessar da mesma maneira como faríamos com arrays aninhados.</li>
+            </ul>
+            <p>Exemplo de como acessar uma propriedade de um objeto:</p>
+            <pre>
+                <code class="language-javascript">
+                    for(let i = 0; i < objeto.length; i++){
+                        objeto[i].propriedade
+                      }
+                </code>                
+            </pre>
+            <p>Exemplo sobre como acessar uma propriedade de um objeto se ela for uma lista:</p>
+            <pre>
+                <code class="language-javascript">
+                    for(let i = 0; i < objeto.lista.length; i++){
+                        objeto.lista[i].propriedade
+                      }
+                </code>
+            </pre>
+        </div>
+        <section>
+            <p>1. Desenvolva uma função chamada <strong>howManyDepartments</strong> que retorne a quantidade de departamentos na lista.</p>
+        </section>
+        <section>
+            <p>Desenvolva uma função chamada <strong>changeDepartmentName</strong> que deverá receber dois parâmetros: o nome atual do departamento e um novo nome para ser atribuído a ele. Esta função deve retornar o objeto correspondente ao departamento com o nome já atualizado. Se o nome do departamento não for encontrado, a função deve retornar: "Department not found."</p>
+        </section>
+    </main>
+</body>
+</html>
