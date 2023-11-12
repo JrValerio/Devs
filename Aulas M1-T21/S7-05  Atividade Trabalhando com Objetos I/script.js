@@ -129,13 +129,7 @@ Caso o carro tenha a propriedade luxo definida como true, o valor da propriedade
     Exemplo de chamada da função: potenciaReal()
     Saída: 40000
     */
-    const carro = {  
-        placa: "ABC123",   
-        classes: ["sedan", "opala"],  
-        luxo: true,
-        potencia: 200, 
-        estacionado: true  
-      }
+    
 
 function potenciaReal () {
     
@@ -168,10 +162,20 @@ Saída: "Classe cupê adicionada com sucesso" */
 
 
 
-
-
-
-
+function adicionarNovaClasse (str) {
+    let classesPermitidas = ['sedan', 'hatchback', 'suv', 'crossover', 'cupê']
+    if (carro.classes >= 3) {
+        return `Este carro não pode ter mais classes`
+    }
+    if (classesPermitidas.includes(str.toLowerCase())) {
+        if (carro.classes.includes(str)) {
+            return `O carro já possui a classe ${str}`
+        } 
+        carro.classes.push(str)
+        return `Classe ${str} adicionada com sucesso`
+    } 
+    return `Classe inválida. As classes permitidas são: sedan, hatchback, suv, crossover e cupê`
+}
 
 
 
@@ -194,42 +198,55 @@ Obs.: Substitua "{placa do carro}" pela placa do carro em questão.
 Exemplo de chamada da função: naoMaisLuxo()
 Saída: "O carro ABC123 não é mais considerado um carro de luxo" */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function deixarDeSeguirAteTotal(totalAlvo, taxaPorMinuto) {
-    let totalDeixadoDeSeguir = 0;
-    let minutos = 0;
-  
-    while (totalDeixadoDeSeguir < totalAlvo) {
-      totalDeixadoDeSeguir += taxaPorMinuto;
-      minutos += 3; 
-  
-      if (totalDeixadoDeSeguir >= totalAlvo) {
-        break;
-      }
-    }
-  
-    const horasNecessarias = minutos / 60;
-    return horasNecessarias;
+const carro = {  
+    placa: "ABC123",   
+    classes: ["sedan", "opala"],  
+    luxo: true,
+    potencia: 200, 
+    estacionado: true  
   }
+
+function naoMaisLuxo () {
+    if (carro.estacionado != true) {
+        return `O carro ${carro.placa} está estacionado`
+    } if (carro.luxo != true) {
+        return `O carro ${carro.luxo} não é luxuoso`
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function deixarDeSeguirAteTotal(totalAlvo, taxaPorMinuto) {
+//     let totalDeixadoDeSeguir = 0;
+//     let minutos = 0;
   
-  const totalPessoasDeixadasDeSeguir = 1600;
-  const taxaPorMinuto = 5;
+//     while (totalDeixadoDeSeguir < totalAlvo) {
+//       totalDeixadoDeSeguir += taxaPorMinuto;
+//       minutos += 3; 
   
-  const horasNecessarias = deixarDeSeguirAteTotal(totalPessoasDeixadasDeSeguir, taxaPorMinuto);
+//       if (totalDeixadoDeSeguir >= totalAlvo) {
+//         break;
+//       }
+//     }
   
-  console.log(`Levará aproximadamente ${horasNecessarias.toFixed(2)} horas para deixar de seguir ${totalPessoasDeixadasDeSeguir} pessoas com a taxa de ${taxaPorMinuto} pessoas a cada 3 minutos.`);
+//     const horasNecessarias = minutos / 60;
+//     return horasNecessarias;
+//   }
+  
+//   const totalPessoasDeixadasDeSeguir = 1600;
+//   const taxaPorMinuto = 5;
+  
+//   const horasNecessarias = deixarDeSeguirAteTotal(totalPessoasDeixadasDeSeguir, taxaPorMinuto);
+  
+//   console.log(`Levará aproximadamente ${horasNecessarias.toFixed(2)} horas para deixar de seguir ${totalPessoasDeixadasDeSeguir} pessoas com a taxa de ${taxaPorMinuto} pessoas a cada 3 minutos.`);
   
